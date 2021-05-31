@@ -65,11 +65,10 @@ def DingTalkSend():
 
     # 钉钉推送
 
-    url = 'https://oapi.dingtalk.com/robot/send?access_token=' \
-          '844b508e77a6a16371536149ecc86b1903e7570453bbe1bf5e835b18fc928365'  # webhook
+    url = 'xxxxxxx'  # webhook
     con = {"msgtype": "text",
            "text": {
-               "content": "云犀自动化脚本执行完成。"
+               "content": "xxxxx"
                           f"测试环境：{os.getenv('TEST')}环境"
                           "\n测试用例概述:"
                           "\n基本功能：登陆，创建直播"
@@ -92,6 +91,5 @@ def DingTalkSend():
 
 if __name__ == '__main__':
     DingTalkSend()
-    # jenkins_login = YamlUtil('jenkins.yaml').read_data['login']
-    # print(jenkins_login,jenkins_login['user'], jenkins_login['password'])
+
 

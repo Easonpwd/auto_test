@@ -103,5 +103,4 @@ def file_download_exists(filepath):
 
 
 if __name__ == '__main__':
-    file_download_exists("【竖屏直播间】_【默认】2021-04-01_14_00.xls")
-
+    pass
