@@ -1,0 +1,24 @@
+[
+  {
+    "name": "跳过的用例",
+    "matchedStatuses": ["skipped"]
+  },
+  {
+    "name": "Infrastructure problems",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*bye-bye.*"
+  },
+  {
+    "name": "Outdated tests",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*FileNotFoundException.*"
+  },
+  {
+    "name": "失败用例",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "缺陷用例",
+    "matchedStatuses": ["broken"]
+  }
+]

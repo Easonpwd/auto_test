@@ -1,0 +1,14 @@
+/logs/*.log
+.DS_Store
+.idea
+/screenshot/*.png
+/report/*
+!**/.gitkeep
+*/__pycache__
+.idea
+*.pyc
+*.py[cod]
+*/*.pyc
+**/*.pyc
+**/*.log
+**/.DS_Store

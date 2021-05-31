@@ -1,0 +1,20 @@
+baidu:
+  url: https://www.baidu.com
+
+database:
+  host: xxx
+  port: xx
+  user: xx
+  password: xx
+  charset: utf8
+
+email:
+  server_host: xxx
+  server_port: 465
+  user: xxx
+  password: xx
+  to_addrs: ['xxxx','xxxx']
+
+log:
+  path: log
+  level: debug
