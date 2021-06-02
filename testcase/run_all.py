@@ -6,7 +6,7 @@
 @Project ：auto_test
 @File    ：run_all.py
 @IDE     ：PyCharm
-@Author  ：chenff
+@Author  ：coke
 @Time    ：2021/05/31 17:40
 -------------------------------------
 

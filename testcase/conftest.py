@@ -6,7 +6,7 @@
 @Project ：auto_test
 @File    ：conftest.py
 @IDE     ：PyCharm
-@Author  ：chenff
+@Author  ：coke
 @Time    ：2021/05/31 17:34
 -------------------------------------
 
